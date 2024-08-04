@@ -24,6 +24,7 @@ class ServiceTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     void shouldCalculateCorrect2() {
         Service service = new Service();
